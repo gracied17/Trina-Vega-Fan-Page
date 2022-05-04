@@ -1,0 +1,29 @@
+.background {
+    background-image: url("galleryBackground.jpg");
+    background-size: cover;
+}
+
+nav{
+    display: flex;
+    padding: 2%, 6%;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-links {
+    flex: 1;
+    text-align: center;
+}
+.nav-links ul li{
+    list-style: none;
+    display:inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+    font-size:25px;
+}
+.font{
+    font-family: sans-serif;
+}
